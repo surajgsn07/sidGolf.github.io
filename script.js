@@ -7,7 +7,7 @@ document.addEventListener("mousemove",function(dets){
     blur.style.top = dets.y + - 200 +  "px";
 })
 var blur = document.querySelector("#cursor-blur");
-
+const my;
 
 var h4all = document.querySelectorAll("#nav h4");
 h4all.forEach(function(elem){
